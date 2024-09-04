@@ -1,0 +1,33 @@
+﻿@page "/gamecatalog"
+@using BlazorApp.Models
+@rendermode InteractiveServer
+
+
+
+<div class="row">
+    <div class="col-4">
+        <div class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>search</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="list-group">
+    @foreach (var game in GamesList.GetGames())
+    {
+        <a class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">@game.Name</h5>
+            </div>
+            <p class="mb-1">@game.Genre</p>
+            <small>And some small print.</small>
+        </a>
+    }
+</div>
+
+@code {
+    private Games GamesList = new Games();
+
+}
