@@ -21,6 +21,34 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\bacon.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\bacon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\cheese.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\cheese.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\margherita.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\margherita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\meaty.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\meaty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\pepperoni.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\pepperoni.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\img\\pizzas\\salad.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\salad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

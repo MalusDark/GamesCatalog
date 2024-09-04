@@ -7,22 +7,31 @@
 <div class="row">
     <div class="col-4">
         <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>search</button>
+            <input type="search" @bind="targetGame" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" @onclick="SearchGame" class="btn btn-outline-primary" data-mdb-ripple-init>Поиск</button>
         </div>
     </div>
 </div>
 
+<input @bind="newId" />
+<input @bind="newName" />
+<input @bind="newGenre" />
+<button @onclick="AddGame">Добавить игру</button>
 
 <div class="list-group">
     @foreach (var game in GamesList.GetGames())
     {
         <a class="list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">@game.Name</h5>
+            <div class="col-3">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">@game.Name</h5>
+                </div>
+                <p class="mb-1">@game.Genre</p>
+                <small></small>
             </div>
-            <p class="mb-1">@game.Genre</p>
-            <small>And some small print.</small>
+            <div class="col-1">
+                <button @onclick="DeleteGame">Х</button>
+            </div>
         </a>
     }
 </div>
@@ -30,4 +39,26 @@
 @code {
     private Games GamesList = new Games();
 
+    int newId = 0;
+    string newName = "";
+    string newGenre = "";
+
+    string targetGame = "";
+    private void SearchGame()
+    {
+        if (!string.IsNullOrWhiteSpace(targetGame))
+        {
+            GamesList.GetGames(targetGame);
+        }
+    }
+    private void AddGame()
+    {
+        GamesList.AddGame(newId, newName, newGenre);
+        newName = "";
+        newGenre = "";
+    }
+    private void DeleteGame()
+    {
+        
+    }
 }

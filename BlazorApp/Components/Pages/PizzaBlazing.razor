@@ -1,0 +1,39 @@
+﻿@page "/BlazorPizza"
+@using BlazorApp.Models
+
+<link rel="stylesheet" href="site.css" />
+<div class="main">
+    <h1>Пиццерия</h1>
+    <ul class="pizza-cards">
+        @if (specials != null)
+        {
+            @foreach (var special in specials)
+            {
+                <li style="background-image: url('@special.ImageUrl')">
+                    <div class="pizza-info">
+                        <span class="title">@special.Name</span>
+                        @special.Description
+                        <span class="price">@special.GetFormattedBasePrice()</span>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>
+
+@code {
+    List<Pizza> specials = new();
+
+    protected override void OnInitialized()
+    {
+        specials.AddRange(new List<Pizza>
+        {
+            new Pizza { Name = "Пицца с беконом", BasePrice =  11.99M, Description = "It has EVERY kind of bacon", ImageUrl="/img/pizzas/bacon.jpg"},
+            new Pizza { Name = "Курица Буфало", BasePrice =  12.75M, Description = "Spicy chicken, hot sauce, and blue cheese, guaranteed to warm you up", ImageUrl="img/pizzas/meaty.jpg"},
+            new Pizza { Name = "Салат-пицца", BasePrice =  11.5M, Description = "It's like salad, but on a pizza", ImageUrl="img/pizzas/salad.jpg"},
+            new Pizza { Name = "Маргарита", BasePrice =  9.99M, Description = "Traditional Italian pizza with tomatoes and basil", ImageUrl="img/pizzas/margherita.jpg"},
+            new Pizza { Name = "Сырная", BasePrice =  11.99M, Description = "It's cheesy and delicious. Why wouldn't you want one?", ImageUrl="img/pizzas/cheese.jpg"},
+            new Pizza { Name = "Пепперони", BasePrice =  10.5M, Description = "It's the pizza you grew up with, but Blazing hot!", ImageUrl="img/pizzas/pepperoni.jpg" }
+        });
+    }
+}

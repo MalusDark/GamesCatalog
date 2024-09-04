@@ -17,5 +17,17 @@
         {
             return _games;
         }
+        public List<Game> GetGames(string? gameName)
+        {
+            var result = _games.FirstOrDefault(x => x.Name == gameName);
+            List<Game> resultList = new List<Game>();
+            resultList.Add(result);
+            return resultList;
+        }
+        public void AddGame(int id, string name, string genre)
+        {
+            Game newGame = new Game(id, name, genre);
+            _games.Add(newGame);
+        }
     }
 }
