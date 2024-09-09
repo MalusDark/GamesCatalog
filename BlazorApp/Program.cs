@@ -2,7 +2,6 @@ using BlazorApp.Components;
 using BlazorApp.Components.Data;
 using BlazorApp.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -12,13 +11,6 @@ builder.Services.AddRazorComponents()
 builder.Services.AddHttpClient();
 
 
-var app = builder.Build();
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    app.UseHsts();
-}
 using (var context = new LearningDbContext())
 {
     var john = new AuthorEntity { UserName = "John T. Author", Email = "john@example.com" };
@@ -37,15 +29,19 @@ using (var context = new LearningDbContext())
 
 using (var context = new LearningDbContext())
 {
-    var posts = context.Lessons
+    var lessonsList = context.Lessons
         .Include(p => p.Author)
         .ToList();
 
-    foreach (var post in posts)
-    {
-        Console.WriteLine($"{post.Title} by {post.Author.UserName}");
-        Console.WriteLine(post.LessonText); 
-    }
+    Console.WriteLine("Db writed -"+lessonsList.Count);
+}
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error", createScopeForErrors: true);
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();

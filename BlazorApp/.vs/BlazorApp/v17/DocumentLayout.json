@@ -7,44 +7,28 @@
       "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\data\\learningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\data\\learningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\models\\lessonentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:models\\lessonentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\data\\learningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\data\\learningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\models\\authorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:models\\authorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\pages\\pizzablazing.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\pages\\pizzablazing.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\pages\\entitypage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\pages\\entitypage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\components\\pages\\gamecatalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:components\\pages\\gamecatalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|c:\\users\\artem\\source\\repos\\asp\\blazorapp\\models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F7726F8-8E4F-409A-8F0F-F3E638681EAC}|BlazorApp.csproj|solutionrelative:models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,37 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlazorApp",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\BlazorApp.csproj",
-              "RelativeDocumentMoniker": "BlazorApp.csproj",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\BlazorApp.csproj",
-              "RelativeToolTip": "BlazorApp.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-08T13:12:36.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LessonEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\LessonEntity.cs",
-              "RelativeDocumentMoniker": "Models\\LessonEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\LessonEntity.cs",
-              "RelativeToolTip": "Models\\LessonEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T12:53:27.549Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,9 +52,22 @@
               "RelativeDocumentMoniker": "Models\\AuthorEntity.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\AuthorEntity.cs",
               "RelativeToolTip": "Models\\AuthorEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T12:54:17.942Z",
+              "WhenOpened": "2024-09-09T16:16:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LessonEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\LessonEntity.cs",
+              "RelativeDocumentMoniker": "Models\\LessonEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\LessonEntity.cs",
+              "RelativeToolTip": "Models\\LessonEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:11:26.905Z",
               "EditorCaption": ""
             },
             {
@@ -107,40 +78,53 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwC4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T07:36:44.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "EntityPage.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\EntityPage.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EntityPage.razor",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\EntityPage.razor",
+              "RelativeToolTip": "Components\\Pages\\EntityPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T14:42:58.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LearningDbContext.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Data\\LearningDbContext.cs",
               "RelativeDocumentMoniker": "Components\\Data\\LearningDbContext.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Data\\LearningDbContext.cs",
               "RelativeToolTip": "Components\\Data\\LearningDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T06:44:37.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAIBJwCoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-05T11:02:46.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "Components\\App.razor",
@@ -148,60 +132,7 @@
               "RelativeToolTip": "Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T16:26:18.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\Pizza.cs",
-              "RelativeDocumentMoniker": "Models\\Pizza.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\Pizza.cs",
-              "RelativeToolTip": "Models\\Pizza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T15:59:14.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PizzaBlazing.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\PizzaBlazing.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\PizzaBlazing.razor",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\PizzaBlazing.razor",
-              "RelativeToolTip": "Components\\Pages\\PizzaBlazing.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T15:55:02.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameCatalog.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\GameCatalog.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\GameCatalog.razor",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Components\\Pages\\GameCatalog.razor",
-              "RelativeToolTip": "Components\\Pages\\GameCatalog.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T10:38:51.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Games.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\Games.cs",
-              "RelativeDocumentMoniker": "Models\\Games.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\ASP\\BlazorApp\\Models\\Games.cs",
-              "RelativeToolTip": "Models\\Games.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:51:36.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T16:26:18.749Z"
             }
           ]
         }

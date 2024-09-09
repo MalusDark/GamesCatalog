@@ -1,0 +1,38 @@
+﻿@page "/EntityPage"
+@using BlazorApp.Components.Data
+@using BlazorApp.Models
+@using Microsoft.EntityFrameworkCore
+
+<link rel="stylesheet" href="site.css" />
+<div class="main">
+    <h1>Контекст Занятий</h1>
+    <ul class="pizza-cards">
+        @if (lessons != null)
+        {
+            @foreach (var lesson in lessons)
+            {
+                <li>
+                    <div class="lessons-info">
+                        <span class="title">@lesson.Title</span>
+                        @lesson.Author.Email
+                        <p class="price">@lesson.LessonText</p>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>
+
+@code {
+    List<LessonEntity> lessons = new();
+
+    protected override void OnInitialized()
+    {
+        using (var context = new LearningDbContext())
+        {
+            lessons = context.Lessons
+                .Include(p => p.Author)
+                .ToList();
+        }
+    }
+}
